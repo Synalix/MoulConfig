@@ -1,7 +1,7 @@
-package com.example.config
+package com.github.synalix.moulconfig.config
 
-import com.example.config.categories.ExampleModConfig
-import com.example.errors.ConfigError
+import com.github.synalix.moulconfig.config.categories.ExampleModConfig
+import com.github.synalix.moulconfig.errors.ConfigError
 import com.google.gson.GsonBuilder
 import com.google.gson.TypeAdapter
 import com.google.gson.stream.JsonReader
@@ -48,7 +48,7 @@ class ConfigManager {
             .create()
     }
 
-    private var configDirectory = File("config/examplemod")
+    private var configDirectory = File("config/moulconfig")
     private var configFile: File
     var config: ExampleModConfig? = null
     private var lastSaveTime = 0L

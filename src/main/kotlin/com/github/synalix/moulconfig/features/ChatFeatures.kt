@@ -1,7 +1,7 @@
-package com.example.features
+package com.github.synalix.moulconfig.features
 
-import com.example.ExampleMod
-import com.example.utils.ChatUtils
+import com.github.synalix.moulconfig.ExampleMod
+import com.github.synalix.moulconfig.utils.ChatUtils
 import net.minecraftforge.client.event.ClientChatReceivedEvent
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent
 

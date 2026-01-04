@@ -1,6 +1,6 @@
-package com.example.config.categories;
+package com.github.synalix.moulconfig.config.categories;
 
-import com.example.ExampleMod;
+import com.github.synalix.moulconfig.ExampleMod;
 import com.google.gson.annotations.Expose;
 import io.github.moulberry.moulconfig.Config;
 import io.github.moulberry.moulconfig.annotations.Category;
